@@ -47,6 +47,13 @@
 
 .profile__edit-btn {
   margin-top: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 25px;
+  radius: 90px;
+  gap: 8px;
+  background: #fcf5e5;
+  border: none;
 }
 
 .profile__add-btn {
@@ -54,7 +61,7 @@
   width: 137px;
   padding: 0;
   width: 157px;
-  height: 52px;
+  height: 57px;
   background: #212121;
   color: #fcf5e5;
   border-radius: 8px;
