@@ -36,6 +36,10 @@ project-folder/
 
 2. Open `index.html` in your browser
 
+## 🌐 Live Demo
+
+https://brenj469.github.io/se_project_spots/
+
 ## 🧪 Future Improvements
 
 - Add local storage support
