@@ -35,25 +35,26 @@
   margin: 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 16px;
   line-height: 1;
   font-weight: 500;
   color: #212121b2;
-  max-width: 20px;
+  max-width: 250px;
 }
 
 .profile__edit-btn {
   margin-top: auto;
   margin-right: auto;
-  width: 120px;
-  height: 25px;
+  height: 20px;
+  width: none;
   radius: 90px;
   gap: 8px;
   background: #fcf5e5;
   border: none;
+  opacity: 70%;
 }
 
 .profile__add-btn {
@@ -70,6 +71,7 @@
   gap: 8px;
   align-items: center;
   justify-content: center;
+  margin-top: auto;
 }
 
 @media screen and (max-width: 627px) {

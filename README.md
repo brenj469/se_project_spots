@@ -1,29 +1,48 @@
-# Project 3: Spots
+# Spots
 
-### Overview
+## 📌 Description
 
-- Project Description
-- Technologies Used
-- Screenshots
-- Live Demo Link
+Spots is a simple social-style web page that displays a user profile and a collection of photo cards. Users can edit their profile information and add new posts through interactive modals.
 
-**Spots**
+## 🚀 Features
 
-A responsive social media platform for sharing and discovering beautiful spots around the world. Users can view posts with images and videos, explore different locations, and interact with content through an intuitive interface.
+- Profile section with avatar, name, and description
+- Edit profile modal (update name and description)
+- Add new post modal (image + title)
+- Card gallery with images and like buttons
+- Responsive layout structure
 
-**Technologies Used**
+## 🛠️ Tech Stack
 
-- HTML5 (semantic markup)
-- CSS3 (Flexbox, Grid, media queries)
-- BEM methodology for CSS organization
-- Responsive design principles
-- GitHub Pages for deployment
+- HTML5
+- CSS3
+- JavaScript
 
-**Screenshots**
+## 📂 Project Structure
 
-![Desktop View](./images/desktop-screenshot.png)
-![Mobile View](./images/mobile-screenshot.png)
+project-folder/
+│── index.html
+│── pages/
+│ └── index.css
+│── scripts/
+│ └── index.js
+│── images/
+│── favicon.ico
 
-**Live Demo**
+## ▶️ Usage
 
-View the live project: git@github.com:brenj469/se_project_spots.git
+1. Clone the repository:
+   git clone https://github.com/brenj469/se_project_spots.git
+
+2. Open `index.html` in your browser
+
+## 🧪 Future Improvements
+
+- Add local storage support
+- Improve form validation
+- Add delete functionality for cards
+- Enhance mobile responsiveness
+
+## 👤 Author
+
+Brenda Jones
