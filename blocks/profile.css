@@ -62,7 +62,7 @@
 }
 
 .profile__edit-btn:hover {
-  background-color: #555;
+  background-color: #e8dcc2;
   transform: translateY(-2px);
   opacity: 0.95;
 }
@@ -84,6 +84,18 @@
   align-items: center;
   justify-content: center;
   margin-top: auto;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.profile__add-btn:hover {
+  background-color: #e8dcc2;
+  transform: translateY(-2px);
+  opacity: 0.95;
+  border: none;
 }
 
 @media screen and (max-width: 627px) {
