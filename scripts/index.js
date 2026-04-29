@@ -41,12 +41,14 @@ function handleEditProfileSubmit(evt) {
   evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionNameInput.value;
+  closeModal(editProfileModal);
 }
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
   console.log(nameInput.value);
   console.log(linkInput.value);
+  closeModal(newPostModal);
 }
 
 newPostCloseBtn.addEventListener("click", function () {
